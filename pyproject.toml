@@ -1,9 +1,6 @@
 [tool.isort]
 profile = "black"
-src_paths = [
-    "requests",
-    "test",
-]
+src_paths = ["requests", "test"]
 honor_noqa = true
 
 [tool.pytest.ini_options]
@@ -14,14 +11,3 @@ testpaths = [
     "requests",
     "tests",
 ]
-
-[project]
-version = "2.31.0+lineaje.1"
-maintainers = [
-    { name = "Lineaje DepFixer", email = "221268890+Lineaje-DepFixer@users.noreply.github.com" },
-]
-
-[project.urls]
-Homepage = "https://github.com/lineaje-labs-gos/psf-requests"
-Repository = "https://github.com/lineaje-labs-gos/psf-requests"
-Tracker = "https://github.com/lineaje-labs-gos/psf-requests/issues"
